@@ -1,8 +1,58 @@
-.login-container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #ec2b2b;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(5ea737912f9f50da392a5579ea9d0334.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    background: transparent;
+    width: 400px;
+    height: 300px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: 2px solid #b9b9b9;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.container h1{
+    font-size: 35px;
+    text-align: center;
+}
+.container .input-box{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container .input-box input{
+    width: 100%;
+    height: 97%;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #000;
+}
+.container .input-box input::placeholder{
+    color: #000;
+    padding-left: 15px;
+}
+.container button{
+    width: 100%;
+    height: 37px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid #000;
+    cursor: pointer;
 }
